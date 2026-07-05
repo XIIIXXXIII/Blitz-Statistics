@@ -1,0 +1,880 @@
+---
+
+# This localization file use placeholders:
+# format: <key_name>
+#
+# Example:
+#   srv_id: "server_id: <id>"
+#
+# Please do not change the placeholders names when translating the file.
+#
+# This file use dynamic yaml data.
+# File contain variables, example:
+#
+# server:
+#   srv_id: 12123434
+#
+# server_settings:
+#   srv_url: https://example.com/server/{server.srv_id}/
+#
+# _Zener
+
+for_image:
+  main: ОСНОВНЫЕ
+  winrate: ПОБЕДЫ
+  avg_damage: |-
+    СРЕДНИЙ
+    УРОН
+  battles: БОИ
+  medals: МЕДАЛИ
+  mainGun: |-
+    ОСНОВНОЙ
+    КАЛИБР
+  medalKolobanov: КОЛОБАНОВ
+  warrior: ВОИН
+  medalRadleyWalters: |-
+    РЭДЛИ
+    УОЛТЕРС
+  markOfMastery: МАСТЕР
+  rating: РЕЙТИНГ
+  personal_rating: |-
+    ЛИЧНЫЙ
+    РЕЙТИНГ
+  rating_battles: |-
+    РЕЙТИНГОВЫЕ
+    БОИ
+  no_rating: НЕТ РЕЙТИНГА
+  tank: 'ТАНК'
+  leagues:
+    gold: ЗОЛОТО
+    platinum: ПЛАТИНА
+    brilliant: БРИЛЛИАНТ
+    no_league: НЕТ ЛИГИ
+    calibration: КАЛИБРОВКА
+  total: ОБЩИЕ
+  frags_per_battle: |-
+    УНИЧТОЖЕНО
+    ЗА БОЙ
+  max_frags: |-
+    МАКС.
+    УНИЧТОЖЕНО
+  enemies_destroyed: |-
+    УНИЧТОЖЕНО
+    ПРОТИВНИКОВ
+  destruction_ratio: |-
+    КОЭФФ.
+    УНИЧТОЖЕНИЯ
+  damage_dealt: |-
+    НАНЕСЕНО
+    УРОНА
+  damage_ratio: |-
+    КОЭФФ.
+    УРОНА
+  avg_spotted: |-
+    ОБНАРУЖЕНО
+    ЗА БОЙ
+  survived_battles: |-
+    ВЫЖИЛ В
+    БОЯХ
+  xp: |-
+    ВСЕГО
+    ОПЫТА
+  max_xp: |-
+    МАКС. ОПЫТА
+    ЗА БОЙ
+  shots: ВЫСТРЕЛЫ
+  accuracy: |-
+    ТОЧНОСТЬ
+    СТРЕЛЬБЫ
+  no_clan: НЕТ КЛАНА
+  no_data: НЕТ ДАННЫХ
+  survival_ratio: |-
+    КОЭФФ.
+    ВЫЖИВАНИЯ
+  dropped_capture_points: |-
+    СБИТЫЕ ОЧКИ 
+    ЗАХВАТА
+  capture_points: |-
+    ОЧКИ 
+    ЗАХВАТА
+  damage_received: |-
+    ПОЛУЧЕНО
+    УРОНА
+  leaderboard_position: |-
+    МЕСТО В 
+    РЕЙТИНГЕ
+  hits: ПОПАДАНИЯ
+  frags: УНИЧТОЖЕНО
+  losses: ПОРАЖЕНИЯ
+  wins: ПОБЕДЫ
+
+map_names:
+  rockfield: Балтийский щит
+  desert_sands: Эль-Аламейн
+  middleburg: Миддлбург
+  copperfield: Карьеры
+  alpenstadt: Альпенштадт
+  mines: Рудники
+  dead_rail: Эшелон
+  fort_despair: Форт
+  himmelsdorf: Химмельсдорф
+  black_goldville: Золотая долина
+  oasis_palm: Горячие пески
+  ghost_factory: Промзона
+  yukon: Юкон
+  molendijk: Молендейк
+  port_bay: Порт
+  winter_malinovka: Зимняя малиновка
+  castilia: Кастилия
+  canal: Канал
+  vineyards: Виноградники
+  canyon: Каньон
+  mayan_ruins: Древние пирамиды
+  dynasty_pearl: Жемчужный город
+  naval_frontier: Морской рубеж
+  falls_creek: Протока
+  new_bay: Нью-Бей
+  normandy: Нормандия
+  yamato_harbor: не определено
+  wasteland: не определено
+  lagoon: Лагуна
+  unknown: не определено
+
+gamemodes:
+  any: Неизвестно
+  regular: Обычный
+  training_room: Тренировочный
+  tournament: Турнир
+  quick_tournament: Быстрый турнир
+  rating: Рейтинг
+  mad_games: Mad Games
+  realistic_battles: Реалистичные бои
+  urprising: Выживание
+  gravity_mode: Гравитация
+  skirmish: Столкновение
+  burning_games: Возрождение
+  unknown: Неизвестный
+
+cmds_defs:
+  set_player: '</set_player:1126148623869153443>'
+  stats: '</stats:1125575592486645854>'
+  astats: '</astats:1125575592486645855>'
+  start_session: '</start_session:1131616465490022591>'
+  start_autosession: '</start_autosession:1207032176927834143>'
+  get_session: '</get_session:1144323150226673734>'
+  session_state: '</session_state:1160739497567326290>'
+  image_settings_get: '</image_settings_get:1190367458192801866>'
+  server_settings_get: '</server_settings_get:1190367458192801868>'
+  set_lock: '</set_lock:1221467304890728509>'
+  session_widget_settings: '</session_widget_settings:1221467304450064500>'
+  switch_account: '`/switch_account`'
+  premium: '`/premium`'
+
+completions:
+  nickname: 'Введите 3 или более символов, чтобы начать поиск игроков'
+
+frequent:
+  errors:
+    error: Ошибка
+    user_banned: Вы заблокированы и не можете использовать команды этого бота.
+    unknown_error: |-
+      Неизвестная ошибка
+      Оставьте баг репорт на [сервере поддержки](https://discord.gg/24FAU6Gbv2)
+    api_error: |-
+      Ошибка при работе с API.
+      Подробности:
+      ```py
+      <real_exc>
+      ```
+      Для получения дополнительной информации перейдите на [сервер поддержки](https://discord.gg/24FAU6Gbv2)
+    parser_error: Ошибка обработки данных.
+    verify_error: Аккаунт не верифицирован. Сначала пройдите верификацию для того что-бы использовать эту команду.
+    locked_player: Этот игрок запретил просмотр своей статистики.
+    slot_is_empty: В выбранном слоте нет сохранённых данных аккаунта, вы не можете использовать его для записи данных.
+    slot_not_accessed: 'для использования слотов 3-5 вам необходим премиум доступ. Больше информации: {cmds_defs.premium}'
+    premium_not_found: 'Для использования этой команды а также получения ряда других возможностей вам необходим премиум доступ. Подробнее: {cmds_defs.premium}'
+    reg_not_set: 'Если вы указали никнейм не выбирая его из подсказок вам необходимо выбрать регион.'
+
+  info:
+    info: Информация
+    player_not_registred: 'Игрок не зарегистрирован. Сначала введите команду {cmds_defs.set_player}'
+    err_info_sent: Информация об ошибке была отправлена разработчику.
+    warning: Внимание
+    discard_changes: Вы отменили изменения.
+    slot_info: |-
+      Информация о аккаунте:
+      ```
+      - слот:     <slot_num>
+      - никнейм:  <nickname>
+      - регион:   <region>
+      ```
+    updated_at: 'Обновлено: '
+    short_slot_info: '`<nickname> [<region>] | аккаунт: <slot_num>`'
+    session_already_started: Сессия уже запущена, желаете её перезапустить?
+
+  common:
+    nickname: Никнейм
+    region: Регион
+    'yes': Да
+    'no': Нет
+    time_units:
+      d: 'д'
+      h: 'ч'
+      m: 'м'
+      s: 'с'
+    slot: Слот аккаунта
+
+views:
+  not_owner: Вы не можете использовать эту кнопку.
+
+cmds:
+# astats command
+  astats:
+    descr:
+      this: Показать статистику игрока без ввода данных.
+      sub_descr:
+        ''
+    errors:
+      player_not_found: Игрок с данным никнеймом не найден.
+    info:
+      player_not_registred: 'Для отображения статистики без ввода данных сохраните свои данные с помощью команды {cmds_defs.set_player}'
+    items:
+      ''
+
+# stats command
+  stats:
+    descr:
+      this: Запрос статистики игрока.
+      sub_descr:
+        nickname: Игровой никнейм.
+        region: Выбор региона из списка.
+    errors:
+      player_not_found: Игрок с данным никнеймом/id не найден.
+      no_battles: Необходимо больше 100 боев на аккаунте.
+      uncorrect_nickname: Некорректный никнейм игрока. Никнейм может состоять из латинских букв A-Z, цифр 0-9 и символа '_'.
+    info:
+      ''
+    items:
+      ''
+
+# Set player command
+  set_player:
+    descr:
+      this: Сохранение данных для последующих запросов.
+      sub_descr:
+        nickname: Игровой никнейм.
+        region: Выбор региона из списка.
+    errors:
+      player_not_found: Игрок с данным никнеймом не найден.
+    info:
+      set_player_ok: |-
+        Информация о игроке успешно сохранена, теперь можете использовать все возможности бота.
+        - Для запроса основной статистики по аккаунту используйте {cmds_defs.astats} | {cmds_defs.stats}
+        - Для начала отслеживания сессионой статистики используйте {cmds_defs.start_session} | {cmds_defs.start_autosession}
+        - Для получения сессионой статистики используйте {cmds_defs.get_session}
+        - Для получения информации о статусе сессии используйте {cmds_defs.session_state}
+        Нажмите кнопку ниже если желаете запустить автосессию прямо сейчас.
+      slot_override: |-
+        В этот слот уже записана информация о игроке, вы уверены что хотите перезаписать её?
+        <slot_data>
+
+# Set lang command
+  set_lang:
+    descr:
+      this: Смена языка.
+      sub_descr:
+        lang_list: Список языков.
+        to_server: Сохранить для сервера.
+    errors:
+      player_not_registred: 'Для изменения языка сначала сохраните свои данные с помощью {cmds_defs.set_player}'
+      permission_denied: Для изменения языка на всём сервере у вас должны быть права администратора.
+    info:
+      set_lang_ok: Язык локализации успешно изменён.
+
+# Session state command
+  session_state:
+    descr:
+      this: Статус сессии
+      sub_descr:
+        ''
+    errors:
+      session_not_found: Сессионные данные не найдены, возможно вы не запустили сессию или прошло более 24 часов с момента старта прошлой сессии.
+    info:
+      player_not_registred: 'Для просмотра статуса сессии сначала сохраните свои данные с помощью {cmds_defs.set_player}'
+    items:
+      # The translation will probably change the length of the lines. 
+      # In your editor, select monospaced font and try to align everything.
+      started: |- 
+        ```py
+        Сессия запущена.
+        +-------------------------------+
+        Автосессия:       '<is_autosession>'
+        _________________________________
+        Время рестарта автоссесии:
+        <update_time> | UTC + <timezone>
+        Рестарт через:    <restart_in>
+        +...............................+
+        Время сессии:     <time>
+        До отключения:    <time_left>
+        Боёв сыграно:     <battles>
+        +-------------------------------+
+        >>> Перезапустить сессию: 
+        /start_session
+        >>> Перезапустить автосессию:
+        /start_autosession
+        ```
+      not_started: '`Сессия не запущена.`'
+
+# Get session command
+  get_session:
+    descr:
+      this: Получить сессию
+      sub_descr:
+        button_update: Обновить сессию
+    errors:
+      session_not_found: 'Нет запущенных сессий, запуск автоматической сессии: {cmds_defs.start_autosession}.'
+      session_not_updated: Не обнаружено изменение статистики, возможно вы не делали боёв или API не обновило данные, попробуйте позже.
+    info:
+      player_not_registred: 'Для просмотра сессионной статистики сначала сохраните свои данные с помощью {cmds_defs.set_player}'
+    items:
+      ''
+
+# Start session command
+  start_session:
+    descr:
+      this: Запуск сессии
+      sub_descr:
+        ''
+    errors:
+      ''
+    info:
+      player_not_registred: 'Для запуска сессии сначала сохраните свои данные с помощью {cmds_defs.set_player}'
+      started: 'Сессия запущена. Теперь можете сыграть несколько боёв и получить сессионную статистику используя {cmds_defs.get_session}'
+    items:
+      ''
+# start autosession command
+  start_autosession:
+    descr:
+      this: Запуск автосессии
+      sub_descr:
+        timezone: Часовой пояс (0 - 12)
+        restart_time: 'Время рестарта в формате ЧЧ:ММ'
+    errors:
+      uncorrect_r_time: |-
+        Некорректное время рестарта. 
+        Ожидается время в формате: "ЧЧ:ММ"
+        Получено: <time>
+        Примеры корректного времени: 
+        00:20, 03:15, 22:40, 13:20
+        Установленное значение будет проигнорировано.
+    info:
+      player_not_registred: 'Для запуска сессии сначала сохраните свои данные с помощью {cmds_defs.set_player}'
+      started: 'Автосессия запущена. Теперь можете сыграть несколько боёв и получить сессионную статистику используя {cmds_defs.get_session}'
+    items:
+      ''
+
+# Set background command
+  set_background: 
+    descr:
+      this: Смена фона
+      sub_descr:
+        image: Загрузите фон в формате PNG или JPEG (макс. 2 МБ) (800 X 1350px)
+        resize_mode: Тип подгонки изображения (если требуется)
+        server: Задать фон по умолчанию для данного сервера (нужны права администратора).
+    errors:
+      player_not_registred: 'Для смены фона сохраните свои данные командой {cmds_defs.set_player}'
+      permission_denied: Для установки фона в качестве фона по умолчанию для сервера вы должны обладать правами администратора.
+      file_error: Файл не является подходящим изображением.
+      oversize: Файл слишком большой (максимум 2 Мб).
+      overresolution: Картинка имеет слишком большое разрешение (максимум 2048x2048).
+      small_resolution: Картинка имеет слишком маленькое разрешение (минимум 256x256).
+    info:
+      set_background_ok: Фон успешно изменён.
+    items:
+      ''
+# image_settings command
+  image_settings:
+    descr:
+      this: Настройки изображения
+      sub_descr:
+        use_custom_bg: Использовать нестандартный фон
+        colorize_stats: Цветная статистика
+        glass_effect: Эффект стекла 0 - Выключить (0-30)
+        stats_blocks_transparency: Прозрачность блоков со статистикой (0-100)
+        nickname_color: 'Цвет никнейма (HEX или RGB Color)'
+        clan_tag_color: 'Цвет тега клана (HEX или RGB Color)'
+        stats_color: 'Цвет основных статистик (HEX или RGB Color)'
+        main_text_color: 'Цвет основного текста (HEX или RGB Color)'
+        stats_text_color: 'Цвет текста статистик (HEX или RGB Color)'
+        disable_flag: 'Отключить отрисовку флага региона'
+        hide_nickname: 'Скрыть никнейм, будет заменён на Player'
+        hide_clan_tag: 'Скрыть тег клана, будет удалён'
+        disable_stats_blocks: 'Отключить отрисовку блоков статистик'
+        disable_rating_stats: 'Отключить рейтинговую статистику'
+        disable_cache_label: 'Отключить отрисовку иконки кэша'
+    errors:
+      color_error: 'Недопустимый цветовой код для `<param_name>`, значение: `<value>`'
+      changes_not_found: Не обнаружено изменение параметров, измените хотя бы один параметр.
+    info:
+      set_ok: 'Настройки изображения успешно применены, получить текущие настройки: </image_settings_get:1190367458192801866>'
+      canceled_settings_change: 'Изменение настроек изображения отменено.'
+      preview: 'Вы хотите применить изменения? Предпросмотр статистики:'
+    items:
+      color_error_note: 'Все недопустимые значения будут проигнорированы.'
+      color_error_footer: 'Формат цветового кода(HEX): #rrggbb или #rgb. Пример правильного цвета: #FF9900 - Оранжевый. Формат цветового кода(RGB): r;g;b. Пример правильного цвета: 255;165;0 - Оранжевый.'
+
+  server_settings:
+    descr:
+      this: Настройки сервера
+      sub_descr:
+        allow_custom_backgrounds: 'Разрешить пользовательские фоны'
+
+    errors:
+      permission_denied: Для изменения настроек сервера вы должны обладать правами администратора.
+
+    info:
+      set_ok: 'Настройки сервера успешно применены, посмотреть текущие настройки: {cmds_defs.server_settings_get}'
+    items:
+      ''
+
+  image_settings_get:
+    descr:
+      this: Получить текущие настройки изображения
+      sub_descr:
+        ''
+    errors:
+      ''
+    info:
+      get_ok: 'Текущие настройки изображения:'
+    items:
+      theme: Тема
+      use_custom_bg: Пользовательский фон
+      colorize_stats: Цветная статистика
+      glass_effect: Эффект стекла
+      stats_blocks_transparency: Прозрачность блоков со статистикой
+      nickname_color: Цвет ника игрока
+      clan_tag_color: Цвет клан-тега
+      stats_color: Цвет основных статистик
+      main_text_color: Цвет основного текста
+      stats_text_color: Цвет текста статистик
+      negative_stats_color: Цвет отрицательной статистики
+      positive_stats_color: Цвет положительной статистики
+      disable_flag: Отключить отрисовку флага
+      hide_nickname: Скрыть ник игрока
+      hide_clan_tag: Скрыть тег клана
+      disable_stats_blocks: Скрыть блоки со статистикой
+      disable_rating_stats: Скрыть рейтинговую статистику
+      disable_cache_label: Скрыть иконку кэша
+      stats_blocks_disabled: Отрисовка блоков со статистикой отключена
+
+  image_settings_reset:
+    descr:
+      this: Сброс настроек изображения
+      sub_descr:
+        ''
+    errors:
+      ''
+    info:
+      reset_ok: Настройки изображения были сброшены.
+    items:
+      ''
+
+  reset_background:
+    descr:
+      this: Сбросить пользовательский фон
+      sub_descr:
+        server: Сбросить фон для сервера (нужны права администратора).
+    errors:
+      permission_denied: Для сброса фона на всём сервере вы должны обладать правами администратора.
+    info:
+      unset_background_ok: Фон успешно сброшен.
+    items:
+      ''
+
+  server_settings_get:
+    descr:
+      this: Получить текущие настройки сервера
+      sub_descr:
+        ''
+    errors:
+      ''
+    info:
+      get_ok: 'Текущие настройки сервера:'
+    items:
+      settings_list: |-
+        ```python
+        - Разрешить пользовательские фоны:    <allow_custom_backgrounds>
+        ```
+
+  server_settings_reset:
+    descr:
+      this: Сброс настроек сервера
+      sub_descr:
+        ''
+    errors:
+      ''
+    info:
+      reset_ok: Настройки сервера были сброшены.
+    items:
+      ''
+
+  report:
+    descr:
+      this: Баг репорты или предложения
+      sub_descr:
+        label: ' '
+        title: 'Репорт'
+        placeholder: 10 символов минимум, 500 символов максимум, излагайте свои мысли грамотно
+        type_placeholder: Напишите 'b' для баг репорта, 's' для предложения
+        type_label: 'Тип сообщения: '
+        bug_report: баг репорт
+        suggestion: предложение
+        type: выберете тип репорта
+    info:
+      suggestion_send_ok: Предложение успешно отправлено разработчикам.
+      bug_report_send_ok: Баг репорт успешно отправлен разработчикам.
+
+# Help command
+  help: 
+    descr:
+      this: Помощь
+      sub_descr:
+        ''
+    errors:
+      ''
+    info:
+      send_ok: Помощь была отправлена.
+      send_ok_dm: Помощь была отправлена вам в ЛС.
+    items:
+      help: Помощь
+
+# parse_replay command
+  parse_replay:
+    descr:
+      this: Показать информацию о реплее.
+      sub_descr:
+        file: Прикрепите файл (.wotbreplay)
+    errors:
+      parsing_error: Ошибка при разборе реплея.
+      uncorrect_file_format: Некорректный формат файла.
+    info:
+      ''
+    items:
+      avg_stats: Ср. Знач.
+      empty_player: '[нет данных]'
+      title: |-
+        Данные реплея от <member_id>
+        Аккаунт: `<nickname>`
+      common:
+        win: Победа
+        lose: Поражение
+        draw: Ничья
+        # When localizing, use an editor with a monospaced font 
+        # and align placeholders relative to each other
+        # I recommended VS Code or Sublime Text with monospaced font
+        # _Zener
+      formenu: |-
+        ```py
+        танк:        | <tank_name>
+        Чистый опыт  | <xp>
+
+        эффективность
+        --------------------------------
+        Урона нанесено....... | <damage>
+        Урон с помощью....... | <spotted>
+        Уничтожено танков.... | <frags>
+        Заблокировано урона.. | <blocked>
+        Сделано выстрелов.... | <shots>
+        Выстрелов попало..... | <shots_hit>
+        Пробитий............. | <shots_penetrated>
+        Точность............. | <accuracy>
+        Процент пробитий..... | <penetration_ratio>
+        ```
+      description: |-
+        ```py
+        Основная информация:
+        +---------------------------+
+        Исход боя:     <battle_result>
+        Тип боя:       <battle_type>
+        Танк:          <tank_name>
+        Уровень:       <tier>
+        Карта:         <map>
+        Бой сыгран:
+        <time>
+        +---------------------------+
+
+        Урон:
+        +---------------------------+
+        нанесено:      <damage_dealt>
+        с помощью:     <damage_assisted>
+        заблокировано: <damage_blocked>
+        +---------------------------+
+
+        Очки захвата:
+        +---------------------------+
+        Захвачено:     <point_captured>
+        Сбито:         <point_defended>
+        +---------------------------+
+
+        Выстрелы:
+        +---------------------------+
+        сделано:       <shots_fired>
+        попаданий:     <shots_hit>
+        пробитий:      <shots_penetrated>
+        +---------------------------+
+
+        Эффективность:
+        +---------------------------+
+        Точность:      <accuracy>%
+        Пробития:      <penetration>%
+
+        Союзники:
+        +---------------------------+
+        Ник:               ПП:  Бои:
+        ==================+====+=====
+        <allies>
+        Противники:
+        +---------------------------+
+        Ник:               ПП:  Бои:
+        ==================+====+=====
+        <enemies>
+        ```
+
+#Cooldown for commands
+  cooldown:
+    descr:
+      this: Предотвращает частое использование команд.
+      
+    info:
+      cooldown_not_expired: Подождите немного перед следующим использованием.
+
+# Verify command
+  verify: 
+    descr:
+      this: Верификация аккаунта
+    items:
+      verify: Верификация
+      message:
+        title: 'Подтвердите свой аккаунт'
+        description: |-
+          Чтобы получить доступ к специальным командам бота (например {cmds_defs.set_lock})
+          вы должны верифицировать (подтвердить факт управления) аккаунтом.
+        button_lt: Lesta
+        button_wg: WG
+      check_dm: Проверьте личные сообщения, ссылка для верификации была отправлена.
+    info:
+      already_verified: Эта учетная запись уже верифицирована. Повторная верификация не требуется.
+
+# Lock command
+  set_lock:
+    descr:
+      this: Запретить просмотр статистики своего аккаунта для других.
+      sub_descr:
+        lock: Запретить / Разрешить просмотр статистики своего аккаунта.
+    info:
+      set_true: Статистика вашего аккаунта теперь доступна только вам.
+      set_false: Статистика вашего аккаунта теперь доступна всем.
+    items:
+      ''
+
+# session_view_settings command
+  session_view_settings:
+    descr:
+      this: Настройки отображения сессионой статистики
+    info:
+      success: Настройки отображения статистики были применены.
+    errors: 
+      empty_slots: Не допускается установка всех пустых слотов, должен быть настроен хотя бы один слот.
+    items:
+      ''
+
+# session_view_settings_reset command
+  session_view_settings_reset:
+    descr:
+      this: Сброс настроек отображения сессионной статистики
+    info:
+      success: Настройки отображения статистики были сброшены.
+    items:
+      ''
+
+# session_widget_settings command
+  session_widget:
+    descr:
+      this: Запуск сессионного WEB виджета.
+    info:
+      success: |-
+        Ваш виджет сессионной статистики был запущен. 
+        Ссылка: <link> 
+        Настройки CSS для корректного отображения: 
+        ```css 
+        body {{ background-color: rgba(0,0,0,0) }}
+        ``` 
+        Настройка виджета: {cmds_defs.session_widget_settings}
+    errors: 
+      ''
+    items:
+      btn: Открыть
+    
+# session_widget_settings command
+  session_widget_settings:
+    descr:
+      this: Настройки виджета сессионной статистики
+    info:
+      success: Настройки виджета сессионной статистики были применены.
+    errors:
+      nothing_changed: Измените хотя бы один параметр.
+    items:
+      disable_bg: Отключить фон
+      disable_nickname: Отключить никнейм
+      max_stats_blocks: Максимальное количество блоков статистики
+      max_stats_small_blocks: Максимальное количество маленьких блоков статистики
+      update_per_seconds: Время обновления в секундах
+      background_transparency: Прозрачность блоков статистики
+      disable_main_stats_block: Отключить основной блок статистики
+      use_bg_for_stats_blocks: Использовать фон для блоков статистики
+      adaptive_width: Адаптивная ширина [ТЕСТОВЫЙ РЕЖИМ]
+      stats_block_color: Цвет блоков статистики
+
+# session_widget_settings_reset command
+  session_widget_settings_reset:
+    descr:
+      this: Сброс настроек виджета сессионной статистики
+    info:
+      success: Настройки виджета сессионной статистики были сброшены.
+    items:
+      ''
+
+# set theme command
+  set_theme:
+    descr:
+      this: Выбор темы
+    info:
+      success: Тема успешно установлена
+    items:
+      theme: Тема
+
+# delete player
+  delete_player:
+    descr:
+      this: 'Удалять все данные о себе'
+    info:
+      warn: 'Вы уверены что хотите удалить все данные о себе? Это действие необратимо!'
+      success: 'Все данные о вас были полностью удалены из базы данных'
+    items:
+      ''
+
+# switch_account
+  switch_account:
+    descr:
+      this: Сменить аккаунт
+    info:
+      success: |-
+        Аккаунт успешно изменен:
+        <old_account> -> <new_account>
+    items:
+      menu: Выберите аккаунт
+    errors:
+      no_slots_for_select: |-
+        У вас зарегистрирован только 1 аккаунт, чтобы появилась возможность выбора аккаунтов зарегистрируйте ещё 1 
+        {cmds_defs.set_player}
+
+# profile
+  profile:
+    descr:
+      this: Профиль пользователя
+    items:
+      profile: Профиль
+      level: 'Уровень:'
+      exp: 'опыт: '
+      last_commands: 'Последние команды'
+      last_activity: 'Последняя активность:'
+      commands_counter: 'команд использовано:'
+      accounts_info: 'Информация о аккаунтах'
+      badges: 'Значки профиля'
+      command_name: 'название команды'
+      last_used_time: 'мин. назад'
+      num: 'номер'
+      account: 'аккаунт'
+      session: 'сессия'
+      others: Разное
+      premium: 'премиум:'
+      premium_time: 'закончится через:'
+
+# hook_stats
+  hook_stats:
+    descr:
+      this: Хук на изменение статистики
+      sub_descr:
+        target: Цель для отслеживания
+        stats_name: Название статистики
+        stats_type: Тип статистики
+        trigger: Условие срабатывания
+        target_value: Целевое значение (+- 10 Млн.)
+    info:
+      success: |- 
+        Хук установлен успешно!
+        Бот оповестит вас в этом канале при срабатывании триггера.
+        Условие: `<watch_for> <stats_name> <trigger> <value>`
+        Через 48 часов хук будет автоматически отключен.
+        Ваша статистика проверяется раз в 200 секунд.
+      triggered: |-
+        Триггер сработал, состояние статистики:
+        `<target_player>`
+        `<watch_for> <stats_name> <target_stats> <trigger> <value>`
+    warns:
+      another_active_hook: |-
+        У вас уже есть активный хук.
+        Создание нового хука перезапишет старый, вы уверены что хотите продолжить?
+        информация о активном хуке:
+        Условие: `<watch_for> <stats_name> <trigger> <value>`
+        Отключится через: <end_time>
+    errors:
+      value_out_of_range: Целевое значение вышло за пределы диапазона (+- 10 Млн.)
+    items:
+      btn_override: Перезаписать
+      btn_cancel: Отмена
+
+# hook_state
+  hook_state:
+    descr:
+      this: Состояние хука
+    info:
+      active: |-
+        Хук активен.
+        `Цель: <target_player>`
+        Условие: `<watch_for> <stats_name> <trigger> <value>`
+        До отключения: <end_time>
+      inactive: Хук не активен.
+    items:
+      btn_stop: Отключить
+
+# premium
+  premium:
+    descr:
+      this: Премиум
+    items:
+      btn_boosty: Boosty
+      btn_da: Donation Alerts
+      main_msg_title: Премиум аккаунт
+    info:
+      main_message: |-
+        # Узнать статус премиума можно по команде `/profile`
+        ### Премиум аккаунт предоставляет вам дополнительные возможности в нашем боте и доступ к эксклюзивным командам. Так же позволяет нам красиво оформить сервер в случае получения премиума через буст сервера или оплачивать хостинг в случае подписки на `Boosty` или `Donation Alerts`
+        ## Дополнительные возможности:
+        - Сохранение до 5 независимых аккаунтов в боте
+        - Использование триггеров статистики (`/hook_stats`)
+        - Особый бейдж в профиле внутри бота (`/profile`)
+        - Эксклюзивный доступ к каналу тестеров и доступу в тестовом боту в любое время. Так же прямая связь с разработчиками.
+        - Получение благодарности от разработчика)
+        ## Как получить?
+        ***Есть 5 способов получить премиум статус в боте:***
+        1 - Стать админом / модератором / тестировщиком на данном сервере
+        2 - Быть стримером и использовать наш виджет.
+        3 - Дать буст серверу поддержки
+        4 - Подписаться на наш Boosty
+        5 - Задонатить через Donation Alerts
+        ## Начисление премиум статуса:
+        **Способы с 1 по 4:** *Автоматически в течении 5 минут*
+        **Способ 5:** *Ручной режим, проверка до 1 дня.*
+
+        -# Учтите что любые покупки это добровольные пожертвования, продукт предоставляется "как есть" и не даёт гарантий работоспособности! Возврат денежных средств невозможен!
