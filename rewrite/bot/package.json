@@ -1,0 +1,27 @@
+{
+  "name": "blitz-statistics-bot",
+  "version": "0.1.0",
+  "description": "Discord-бот Blitz Statistics — ядро на TypeScript (discord.js)",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "tsx test/embeds.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  }
+}
